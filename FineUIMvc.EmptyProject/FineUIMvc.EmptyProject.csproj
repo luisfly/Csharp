@@ -137,6 +137,7 @@
     <Content Include="res\images\my_face_80.jpg" />
     <Content Include="res\js\echarts.js" />
     <Content Include="res\js\echarts.min.js" />
+    <Content Include="res\js\vintage.js" />
     <Content Include="res\languages\zh_UEY.js" />
     <Content Include="res\themes\bootstrap_pure\theme.css" />
     <Content Include="res\themes\custom_default\theme.css" />
