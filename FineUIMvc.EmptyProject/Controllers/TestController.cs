@@ -29,5 +29,15 @@ namespace FineUIMvc.EmptyProject.Controllers
 
             return UIHelper.Result();
         }
+
+        public ActionResult bootstraptest()
+        {
+            return View();
+        }
+
+        public ActionResult bootstrapTheme()
+        {
+            return View();
+        }
     }
 }

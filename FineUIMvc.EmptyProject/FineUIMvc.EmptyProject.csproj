@@ -124,7 +124,10 @@
     <Content Include="res\css\bootstrap.css" />
     <Content Include="res\css\bootstrap.min.css" />
     <Content Include="res\css\common.css" />
+    <Content Include="res\css\ie10-viewport-bug-workaround.css" />
     <Content Include="res\css\index.css" />
+    <Content Include="res\css\MyTest.css" />
+    <Content Include="res\css\signin.css" />
     <Content Include="res\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="res\images\blank.png" />
     <Content Include="res\images\blank_150.png" />
@@ -140,10 +143,15 @@
     <Content Include="res\images\logo\logo3_old.gif" />
     <Content Include="res\images\logo\logo_old.gif" />
     <Content Include="res\images\my_face_80.jpg" />
+    <Content Include="res\images\bgImg.jpg" />
     <Content Include="res\js\bootstrap.js" />
     <Content Include="res\js\bootstrap.min.js" />
     <Content Include="res\js\echarts.js" />
     <Content Include="res\js\echarts.min.js" />
+    <Content Include="res\js\ie-emulation-modes-warning.js" />
+    <Content Include="res\js\ie10-viewport-bug-workaround.js" />
+    <Content Include="res\js\jquery-3.4.1.min.js" />
+    <Content Include="res\css\normalize.css" />
     <Content Include="res\js\npm.js" />
     <Content Include="res\js\vintage.js" />
     <Content Include="res\languages\zh_UEY.js" />
@@ -179,6 +187,7 @@
     <Content Include="res\themes\pure_orange\theme.css" />
     <Content Include="res\themes\pure_purple\theme.css" />
     <Content Include="res\themes\pure_red\theme.css" />
+    <Content Include="Views\Test\HtmlPage1.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -232,6 +241,12 @@
     <Content Include="res\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="res\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="res\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Test\bootstraptest.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Test\bootstrapTheme.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

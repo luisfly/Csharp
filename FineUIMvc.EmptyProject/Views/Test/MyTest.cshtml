@@ -4,10 +4,26 @@
     var F = @Html.F();
 }
 
-<!-- 引入echart到视图测试 -->
+<!-- 引入echart、bootstrap到视图测试 -->
 @section head {
+    <meta name="viewport" cotent="width=device-width, initial-scale=1.0,usr-scalable=no"/>
+    <script src="~/res/js/jquery-3.4.1.min.js"></script>
     <script src="~/res/js/echarts.js"></script>
     <script src="~/res/js/echarts.min.js"></script>
+    <script src="~/res/js/bootstrap.js"></script>
+    <!--<link src="~/res/css/MyTest.css" rel="stylesheet" type="text/css"/>-->
+    <style>
+        /* javascript不认~返回目录的路径写法 */
+        body {
+            background-image:url('../../res/images/bgImg.jpg');
+            background-repeat:no-repeat;
+        }
+
+        h2 {
+            text-transform:uppercase;
+        }
+
+    </style>
 }
 
 @section body {
